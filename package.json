@@ -11,8 +11,15 @@
   },
   "dependencies": {
     "ejs": "^2.5.7",
-    "express": "^4.16.2",
-    "mysql": "^2.15.0"
+    "@cli-engine/engine": "^6.1.34",
+    "bcrypt": "^1.0.3",
+    "body-parser": "latest",
+    "express": "latest",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "pug": "^2.0.0-rc.4",
+    "sequelize": "^4.31.2"
   },
   "devDependencies": {
     "request": "^2.81.0",
