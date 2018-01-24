@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host     : 'db4free.net',
-  user     : 'testuser9999',
-  password : 'testpass9999',
-  database : 'testapp9999',
+  host     : 'sql11.freemysqlhosting.net',
+  user     : 'sql11217492',
+  password : 'PZkBft2yzM',
+  database : 'sql11217492',
   port     : 3306
 });
 
