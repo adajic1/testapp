@@ -1,6 +1,5 @@
 var mysql = require('mysql');
-let express = require('express'),
-    path = require('path');
+let express = require('express');
 var app = express();
 let server = require('http').Server(app);
 
