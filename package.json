@@ -10,9 +10,16 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@cli-engine/engine": "^6.1.35",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "mysql": "latest"
+    "express-session": "^1.15.6",
+    "mysql": "latest",
+    "mysql2": "^1.5.1",
+    "pug": "^2.0.0-rc.4",
+    "sequelize": "^4.32.1"
   },
   "devDependencies": {
     "request": "^2.81.0",
