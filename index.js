@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+var mysql = require('mysqljs/mysql');
 
 /*
 var con = mysql.createConnection({
