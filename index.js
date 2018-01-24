@@ -1,7 +1,7 @@
 var mysql = require('mysql');
 let express = require('express');
 var app = express();
-let server = require('http').Server(app);
+let server = require('https').Server(app);
 
 var con = mysql.createConnection({
   host     : 'sql11.freemysqlhosting.net',
